@@ -16,7 +16,8 @@
 <p> try 02 </p>
 <p> AWS EC2 서버 세팅 2020/7/01/ 수요일 </p>
 <p> 젠킨스 연동 테스트 완료 2020/07/17/ 금요일 </p>
-<img src="/images/img1.gif" >
+<P> jsp 한글 깨짐 방지 - utf-8 필터 적용 </P>
+<img src="/resources/img1.gif" >
 
 
 </body>
