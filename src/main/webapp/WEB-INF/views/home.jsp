@@ -21,7 +21,10 @@
 <!-- <img src="/resources/img1.gif" >  -->
 <img src="<spring:url value='/resources/img1.gif'/>">
 
-<img src="<spring:url value='/resources/img2.mp4'/>">
+<video width="640" height="344" controls autoplay="autoplay">
+       <source src="/resources/img2.mp4" type="video/mp4">
+       
+     </video>
 
 </body>
 </html>
