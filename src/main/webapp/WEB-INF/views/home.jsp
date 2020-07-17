@@ -21,5 +21,7 @@
 <!-- <img src="/resources/img1.gif" >  -->
 <img src="<spring:url value='/resources/img1.gif'/>">
 
+<img src="<spring:url value='/resources/img2.gif'/>">
+
 </body>
 </html>
