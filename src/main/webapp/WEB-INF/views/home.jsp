@@ -21,10 +21,21 @@
 <!-- <img src="/resources/img1.gif" >  -->
 <img src="<spring:url value='/resources/img1.gif'/>">
 
-<video width="640" height="344" controls autoplay="autoplay">
+<!-- <video width="640" height="344" controls autoplay="autoplay">
        <source src="/resources/img2.mp4" type="video/mp4">
        
      </video>
+-->  
+ <video id="hz" width="640" height="344" controls autoplay="autoplay">
+
+ 
+  <source src="/resources/img2.mp4" type="video/mp4">
+
+  <source src="/resources/img2.mp4" type="video/ogg">
+
+  브라우저가 video 태그 지원 안 함.
+
+</video>  
 
 </body>
 </html>
