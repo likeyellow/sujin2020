@@ -13,9 +13,9 @@
 	
 <bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
 	<property name="driverClassName"
-		value="oracle.jdbc.driver.OracleDriver"></property>
+		value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
 	<property name="jdbcUrl"
-		value="jdbc:oracle:thin:@ora2020.cqkjauyevx88.ap-northeast-2.rds.amazonaws.com:1521:ora2020"></property>
+		value="jdbc:log4jdbc:oracle:thin:@ora2020.cqkjauyevx88.ap-northeast-2.rds.amazonaws.com:1521:ora2020"></property>
 	<property name="username" 
 		value="root"></property>
 	<property name="password"
