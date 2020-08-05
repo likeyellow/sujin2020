@@ -28,7 +28,7 @@ public class JDBCTests {
 							"jdbc:oracle:thin:@ora2020.cqkjauyevx88.ap-northeast-2.rds.amazonaws.com:1521:ora2020",
 							"root",
 							"bashangel")){
-				log.info(con);
+				log.info("드라이버 결과..." + con);
 			}catch(Exception e) {
 				fail(e.getMessage());
 			}
