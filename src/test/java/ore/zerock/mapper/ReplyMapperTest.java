@@ -12,7 +12,7 @@ import org.zerock.mapper.ReplyMapper;
 
 import lombok.extern.log4j.Log4j;
 
-@RunWith(SpringRunner.class)
+@RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:src/main/webapp/WEB-INF/spring/root-context.xml")
 @Log4j
 public class ReplyMapperTest {

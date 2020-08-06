@@ -1,4 +1,4 @@
-package org.zerock.persistence;
+package ore.zerock.mapper;
 
 import static org.junit.Assert.*;
 
